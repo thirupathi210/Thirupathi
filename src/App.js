@@ -25,7 +25,7 @@ function App() {
         {/* <p><Link to='/forst'>Go to First Page</Link></p> */}
         {/* Routes definition */}
         <Routes>
-          <Route path='/forst' element={<Forst/>}/>
+          {/* <Route path='/forst' element={<Forst/>}/> */}
           <Route path='/second' element={<Second/>}/>
           {/* <Route path='/food-recipe' element={<Food/>}/> */}
           <Route path='/buking' element={<Buking/>}/>
