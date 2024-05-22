@@ -13,9 +13,8 @@ import UserApi from './UserApi';
 import CallApi from './CallApi';
 import ReadApi from './ReadApi/ReadApi';
 import Home from './ReadApi/Home';
-import Read from './ReadApi/Read';
-import Update from './ReadApi/Update';
-//comtiment
+// import Read from './ReadApi/Read';
+// import Update from './ReadApi/Update';
 function App() {
   return (
     <div className="App">
