@@ -9,6 +9,7 @@ const Second=({todos,deleteHandler})=>{
         </div>
          ) )} 
          <div>element data change</div>
+         <div>second list</div>
         </div>
     )
 }
