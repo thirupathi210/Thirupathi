@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState} from 'react';
 import Second from '../Second';
 function Home() {
   const[task,setTask]=useState('');
@@ -12,10 +12,10 @@ function Home() {
     setTodos(newtodo);
     setTask('');
   }
-//   const deleteHandler=(indexvalue)=>{
-// const newtodo=todos.filter((item,index)=>index !==indexvalue);
-// setTodos(newtodo)
-//   }
+const deleteHandler=(indexvalue)=>{
+const newtodo=todos.filter((item,index)=>index !==indexvalue);
+setTodos(newtodo)
+  }
 
   return (
     <div>

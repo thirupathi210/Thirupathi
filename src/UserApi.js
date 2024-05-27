@@ -2,18 +2,18 @@ import React,{useState,useEffect} from 'react';
 import  './UseApi.css'
 const UserApi = () => {
     const[data,setData]=useState([])
-     
+    
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/users').then(response=>response.json()).then(result=>setData(result)).catch(error=>console.log(error));
     },[]);
   return (
     <div>
-        <table style={{border:'1px solid red'}}>
+        <table style={{border:'1px solid red'}}> b   
             <tr style={{border:'1px solid red'}}>
                 <th >ID</th>
                 <th>name</th>
                 <th>username</th>
-                <th>email</th>
+                <th>email</th> 
             </tr>
             {
                 
