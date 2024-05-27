@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
- 
+
 function CurrencyConverter() {  
   const [rates, setRates] = useState(null); // Initialize to null
   const [fromCurrency, setFromCurrency] = useState('USD');
@@ -53,7 +53,7 @@ const data=()=>{
   setConvertedAmount(null);
   setError('[]')
 }
-
+//curency convert. 
   return (
     <div>
       <h1>Currency Converter</h1>

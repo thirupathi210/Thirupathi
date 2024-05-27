@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Forst from './Forst';
 //add commit
-// import Forst from './Forst';
 import Second from './Second';
 // import Food from './Food/Food';
 import Buking from './Buking/Buking';
@@ -13,10 +12,12 @@ import UserApi from './UserApi';
 import CallApi from './CallApi';
 import ReadApi from './ReadApi/ReadApi';
 import Home from './ReadApi/Home';
-// import Read from './ReadApi/Read';
-// import Update from './ReadApi/Update';
+import Read from './ReadApi/Read';
+import Update from './ReadApi/Update';
+import Emails from './Emails';
 function App() {
   return (
+
     <div className="App">
       <BrowserRouter>
         {/* <h2>Welcome</h2>
@@ -24,7 +25,7 @@ function App() {
         {/* <p><Link to='/forst'>Go to First Page</Link></p> */}
         {/* Routes definition */}
         <Routes>
-          {/* <Route path='/forst' element={<Forst/>}/> */}
+          <Route path='/forst' element={<Forst/>}/>
           <Route path='/second' element={<Second/>}/>
           {/* <Route path='/food-recipe' element={<Food/>}/> */}
           <Route path='/buking' element={<Buking/>}/>
@@ -37,6 +38,7 @@ function App() {
           <Route path='/home' element={<Home/>}/>
           <Route path='/Read' element={<Read/>}/>
           <Route path='/update' element={<Update/>}/>
+          <Route path='/emails' element={<Emails/>}/>
         </Routes>
       </BrowserRouter>
     </div>
