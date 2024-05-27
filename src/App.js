@@ -15,6 +15,8 @@ import Home from './ReadApi/Home';
 import Read from './ReadApi/Read';
 import Update from './ReadApi/Update';
 import Emails from './Emails';
+// import Count from './count';
+import Count2 from './Count2';
 function App() {
   return (
 
@@ -39,6 +41,8 @@ function App() {
           <Route path='/Read' element={<Read/>}/>
           <Route path='/update' element={<Update/>}/>
           <Route path='/emails' element={<Emails/>}/>
+          {/* <Route path='/count' element={<Count/>}/> */}
+          <Route path='/count' element={<Count2/>}/>
         </Routes>
       </BrowserRouter>
     </div>

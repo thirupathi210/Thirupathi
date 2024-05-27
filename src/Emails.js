@@ -21,6 +21,11 @@ const Emails = () => {
       );
   };
 
+  // const data=()=>{
+  //   console.log(data)
+  // }
+
+  
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
